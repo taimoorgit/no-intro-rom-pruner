@@ -22,6 +22,12 @@ Street Fighter EX Plus Alpha (USA) (Pirate).zip               # fake ROM, total 
 Street Fighter V (World) (Pirate).zip                         # same
 ```
 
+Before removing the No-Intro SNES ROMs you and I probably don't want and need vs after, massive reduction in size making it easier to scroll through them.
+
+![image](https://github.com/user-attachments/assets/7b9f6806-a187-4dc9-838f-874785b1f615)
+
+## How it works
+
 This script goes through each ROM and extracts the tags, e.g. `(USA)`, `(Proto)`, `(Rev 1)`. It ignores language tags.
 
 **Any ROM that doesn't have a `(USA)` tag gets moved to the pruned folder.** Revisions get sent to the pruned folder too as do ROMs with the `(Virtual Console)` or `(Pirate)` tag.
@@ -29,8 +35,6 @@ This script goes through each ROM and extracts the tags, e.g. `(USA)`, `(Proto)`
 Keep in mind that means a game like Star Fox 2 that never actually got released will get moved into the pruned folder, since all the ROMs for Star Fox 2 either have `(Beta)` or some other tag. 
 
 You can just move the ROM file back to the folder after running the script. 
-
-If you know Python you could fork add an `if else` to handle exceptions. 
 
 ## Usage
 
