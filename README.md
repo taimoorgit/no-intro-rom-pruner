@@ -1,4 +1,4 @@
-# No Intro ROM Pruner - a python script to remove junk ROMs for your convenience.
+# No-Intro ROM Pruner - a python script to remove junk ROMs for your convenience.
 
 If you downloaded ROMs from any collection e.g. the "No-Intro" SNES/NES/GBA ROMs, there are a ton of junk ROMs that you probably don't want.
 
